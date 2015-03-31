@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
+namespace SuperLibray {
     public class SuperDebug : MonoBehaviour {
 
         private static bool enableGUI = false;
@@ -105,9 +106,5 @@ using System.Collections.Generic;
         }
 
 
-
-
-
-
-
     }
+}
