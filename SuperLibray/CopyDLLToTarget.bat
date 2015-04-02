@@ -1,0 +1,1 @@
+copy E:\SuperLibray\SuperLibray\bin\Debug\SuperLibray.dll E:\BuzzBuzz\Unity\Assets\Libray

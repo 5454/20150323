@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 
-namespace SuperLibray {
+namespace SuperLibray.U3D {
     public class SuperDebug : MonoBehaviour {
 
         private static bool enableGUI = false;
@@ -99,7 +98,6 @@ namespace SuperLibray {
             }
 
         }
-
 
         public static KeyValuePair<string, object> Info(string key, object value) {
             return new KeyValuePair<string, object>(key, value);

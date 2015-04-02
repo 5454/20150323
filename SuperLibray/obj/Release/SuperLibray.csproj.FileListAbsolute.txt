@@ -1,0 +1,6 @@
+E:\SuperLibray\SuperLibray\bin\Release\SuperLibray.dll
+E:\SuperLibray\SuperLibray\bin\Release\SuperLibray.pdb
+E:\SuperLibray\SuperLibray\bin\Release\UnityEngine.dll
+E:\SuperLibray\SuperLibray\obj\Release\SuperLibray.csprojResolveAssemblyReference.cache
+E:\SuperLibray\SuperLibray\obj\Release\SuperLibray.dll
+E:\SuperLibray\SuperLibray\obj\Release\SuperLibray.pdb
