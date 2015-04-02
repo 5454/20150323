@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 
 namespace SuperLibray.U3D {
+    /// <summary>
+    /// 应用此类，只需要打开EnableGUI即可，然后应用Log4XXX;
+    /// </summary>
     public class SuperDebug : MonoBehaviour {
 
         private static bool enableGUI = false;
@@ -62,6 +65,10 @@ namespace SuperLibray.U3D {
                         debugWidth = Screen.width - 50f;
                     }
                 }
+                if (debugWidth > Screen.width * 0.7f) {
+                    debugWidth = Screen.width * 0.7f;
+                }
+
             }
         }
 
@@ -99,6 +106,9 @@ namespace SuperLibray.U3D {
 
         }
 
+        public static KeyValuePair<string, object> Info() {
+            return new KeyValuePair<string, object>();
+        }
         public static KeyValuePair<string, object> Info(string key, object value) {
             return new KeyValuePair<string, object>(key, value);
         }

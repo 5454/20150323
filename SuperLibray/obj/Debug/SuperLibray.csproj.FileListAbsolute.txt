@@ -5,6 +5,6 @@ E:\BuzzBuzz\Unity\Assets\Libray\SuperLibray.pdb
 E:\SuperLibray\SuperLibray\bin\Debug\SuperLibray.dll
 E:\SuperLibray\SuperLibray\bin\Debug\SuperLibray.pdb
 E:\SuperLibray\SuperLibray\bin\Debug\UnityEngine.dll
-E:\SuperLibray\SuperLibray\obj\Debug\SuperLibray.csprojResolveAssemblyReference.cache
 E:\SuperLibray\SuperLibray\obj\Debug\SuperLibray.dll
 E:\SuperLibray\SuperLibray\obj\Debug\SuperLibray.pdb
+E:\SuperLibray\SuperLibray\obj\Debug\SuperLibray.csprojResolveAssemblyReference.cache

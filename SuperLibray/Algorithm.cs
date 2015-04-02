@@ -68,7 +68,6 @@ namespace SuperLibray {
             return Convert.ToSingle(rdm.NextDouble() * (maxValue - minValue));
         }
 
-        public static void UpdateTest(){
-        }
+
     }
 }
