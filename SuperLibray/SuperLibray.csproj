@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithm.cs" />
+    <Compile Include="FramePerSecond.cs" />
     <Compile Include="IntervalSampling.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SuperDebug.cs" />

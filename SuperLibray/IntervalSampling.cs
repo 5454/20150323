@@ -8,10 +8,10 @@ namespace SuperLibray.U3D {
         private float elapsedTime = 0f;
         private float lastRealtimeSinceStartup = 0f;
         private bool pause = false;
-        private Action<bool, float> action;
+        public Action<bool, float> Action;
         public IntervalSampling(float _realtimeSinceStartup, float _samplingTime, Action<bool, float> _action) {
             samplingTime = _samplingTime;
-            action = _action;
+            Action = _action;
         }
 
         /// <summary>
@@ -21,11 +21,11 @@ namespace SuperLibray.U3D {
             if (pause) return;
             elapsedTime += Time.realtimeSinceStartup - lastRealtimeSinceStartup;
             lastRealtimeSinceStartup = Time.realtimeSinceStartup;
-            if (action != null) {
-                action(false, samplingTime);
+            if (Action != null) {
+                Action(false, samplingTime);
                 if (elapsedTime >= samplingTime) {
                     elapsedTime = 0f;
-                    action(true, samplingTime);
+                    Action(true, samplingTime);
                 }
             }
 
