@@ -46,8 +46,8 @@
     <Compile Include="ToolKit\IntervalSampling.cs" />
     <Compile Include="Patterns\NotificationBoard.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Interfaces\Publisher.cs" />
-    <Compile Include="Interfaces\Subscriber.cs" />
+    <Compile Include="Patterns\Interfaces\Publisher.cs" />
+    <Compile Include="Patterns\Interfaces\Subscriber.cs" />
     <Compile Include="ToolKit\SuperDebug.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
