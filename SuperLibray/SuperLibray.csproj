@@ -41,6 +41,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Patterns\Interfaces\INotification.cs" />
     <Compile Include="ToolKit\Algorithm.cs" />
     <Compile Include="ToolKit\FramePerSecond.cs" />
     <Compile Include="ToolKit\IntervalSampling.cs" />
