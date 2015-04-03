@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SuperLibray {
-    public class Algorithm {
+namespace SuperLibray.Algorithm {
+    public class WeightDistribution {
         /// <summary>
         /// 根据权重列表计算权重时间
         /// </summary>

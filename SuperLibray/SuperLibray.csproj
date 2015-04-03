@@ -41,11 +41,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithm.cs" />
-    <Compile Include="FramePerSecond.cs" />
-    <Compile Include="IntervalSampling.cs" />
+    <Compile Include="ToolKit\Algorithm.cs" />
+    <Compile Include="ToolKit\FramePerSecond.cs" />
+    <Compile Include="ToolKit\IntervalSampling.cs" />
+    <Compile Include="Patterns\NotificationBoard.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SuperDebug.cs" />
+    <Compile Include="Interfaces\Publisher.cs" />
+    <Compile Include="Interfaces\Subscriber.cs" />
+    <Compile Include="ToolKit\SuperDebug.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
